@@ -1,0 +1,21 @@
+{
+  "name": "jenkinsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "mocha",
+    "build" : "echo 'Running Build script'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
